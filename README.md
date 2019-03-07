@@ -10,6 +10,7 @@ The source code is written by Matlab r2016a. Versions lower than Matlab r2012a h
 
 `CVDD.m` includes Algorithm 1: CVDD in our paper.
 `Ncut_test.m` as an example includes Algorithm 2: CVDD-OP in our paper.
+
 'OP_CA' (in `Ncut_test.m`) shows the compared results. [Purity, CVDD, CVNN, WB, Silhouette, CH, DB, Dunn, S_Dbw, I]
 
 ### Parameters in CVDD
@@ -18,7 +19,7 @@ No need to tune.
 
 ### Datasets used
 
-File `Datasets_all30 ` includes 10 non-spherical clusters, 10 spherical clusters and 10 classification datasets (real datasets) used in the experiments of our paper.
+File `Datasets_all30` includes 10 non-spherical clusters, 10 spherical clusters and 10 classification datasets (real datasets) used in the experiments of our paper.
 
 
 ## Issues, Questions, etc
