@@ -15,7 +15,7 @@
 
 %% load dataset
 filename = char('pathbased','spiral','aggregation','atom','lsun','zelnik1','rings','zelnik6','triangle1','longsquare',...
-    'iris','ionosphere','wine','glass','wdbc','movement_libras','vertebral_column','yeast','leukemia1','Seeds','manifold4');
+    'iris','ionosphere','wine','glass','wdbc','movement_libras','vertebral_column','yeast','leukemia1','Seeds');
 
 %% Initialization
 % add Jianbo Shi's Normalized Cut
