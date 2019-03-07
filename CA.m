@@ -1,4 +1,4 @@
-%% Accuracy
+% Purity
 function ca = CA(C, C_Label)
     ca = 0;
     L = unique(C);

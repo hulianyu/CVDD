@@ -11,18 +11,19 @@
 % -------------------------------------------------------------------------
 % Written by Lianyu Hu
 % Department of Computer Science, Ningbo University 
-% August 2018
+% February 2019
 
-function CVDD = CVDD(pi,d) 
-    K=7;
-    %% compute the density-involved distance, K=7
-    try
-        DD = Density_involved_distance(d,K);
-        DD_erro = 0;
-    catch
-        DD_erro = 1;
-    end
-    if DD_erro~=1
+% function CVDD = CVDD_DDDE(pi,X, d) 
+function CVDD = CVDD(pi,d,DD) 
+%     K=8;
+%     %% compute the density-involved distance, K=7
+%     try
+%         DD = DDDE_involved_distance(X, d, K);
+%         DD_erro = 0;
+%     catch
+%         DD_erro = 1;
+%     end
+%     if DD_erro~=1
        %% initialization
         NC = length(unique(pi));
         sc_list = zeros(NC,1); %separation
@@ -51,8 +52,8 @@ function CVDD = CVDD(pi,d)
     sep = sum(sc_list);
     com = sum(com_list);
     CVDD = sep/com;
-    else
-        CVDD = 0;
-    end
+%     else
+%         CVDD = 0;
+%     end
 end
 
