@@ -6,7 +6,7 @@ The source code is written by Matlab r2016a. Versions lower than Matlab r2012a h
 
 ## Simplest Demo
 
-- RUN Ncut_test.m to determine the optimal partition from varied partitions (produced by Normalized cuts). 
+- RUN Ncut_test.m to determine the optimal partition from varied partitions (produced by Jianbo Shi's Normalized cuts). 
 
 `CVDD.m` includes Algorithm 1: CVDD in our paper.
 `Ncut_test.m` as an example includes Algorithm 2: CVDD-OP in our paper.
