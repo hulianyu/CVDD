@@ -1,5 +1,5 @@
 filename = char('s1','s2','s3','s4','dim32','dim64','dim128','a1','a2','unbalance');
-% filename = char('pathbased','spiral','aggregation','atom','lsun','zelnik1','rings','zelnik6','triangle1','longsquare',...
+% filename = char('pathbased','spiral','aggregation','atom','lsun','zelnik1','zelnik5','zelnik6','triangle1','longsquare',...
 %     'iris','ionosphere','wine','glass','wdbc','movement_libras','vertebral_column','yeast','leukemia1','Seeds');
 %% Initialization
 % add Pasi's Random Swap (RS) algorithm
