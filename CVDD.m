@@ -15,7 +15,6 @@
 
 % function CVDD = CVDD_DDDE(pi,X, d) 
 function CVDD = CVDD(pi,d,DD) 
-%     K=8;
 %     %% compute the density-involved distance, K=7
 %     try
 %         DD = DDDE_involved_distance(X, d, K);
