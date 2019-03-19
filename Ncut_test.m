@@ -14,7 +14,7 @@
 % function "parfor" is in MATLAB which can speed up the loops [Parallel for loop]
 
 %% load dataset
-filename = char('pathbased','spiral','aggregation','atom','lsun','zelnik1','rings','zelnik6','triangle1','longsquare',...
+filename = char('pathbased','spiral','aggregation','atom','lsun','zelnik1','zelnik5','zelnik6','triangle1','longsquare',...
     'iris','ionosphere','wine','glass','wdbc','movement_libras','vertebral_column','yeast','leukemia1','Seeds');
 
 %% Initialization
