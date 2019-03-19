@@ -47,7 +47,7 @@ for f = 1:2% select fth datasets
     GT = load(['Datasets_all30\', strtrim(filename(I,:)), '_label.txt']);%Ground truth
     NC = length(unique(GT)); %Number of clusters
     d = pdist2(X,X,'minkowski',2); %Euclidean distance of X
-    DD = Density_involved_distance(d, 8);%Density-involved distance of X
+    DD = Density_involved_distance(d, 7);%Density-involved distance of X
     Partitions = zeros(N,length(parameters)); %Partitions pi
     Max_d = max(d(:));
     C_erro = [];
@@ -65,7 +65,7 @@ for f = 1:2% select fth datasets
             error = hist(pi,unique(pi));
             Partitions(:,i) = pi;
             disp(i);
-            if length(unique(pi))~= NC || min(error)<8
+            if length(unique(pi))~= NC || min(error)<7
                 C_erro = [C_erro;i];
             end
         catch
