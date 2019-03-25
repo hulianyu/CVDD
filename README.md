@@ -1,5 +1,5 @@
 # An internal validity index based on density-involved distance
-
+https://ieeexplore.ieee.org/document/8672850
 ## Requirement
 
 The source code is written by Matlab r2016a. Versions lower than Matlab r2012a have not been tested.
