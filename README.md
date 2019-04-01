@@ -1,4 +1,4 @@
-# An internal validity index based on density-involved distance
+# An Internal Validity Index Based on Density-Involved Distance
 https://ieeexplore.ieee.org/document/8672850
 ## Requirement
 
