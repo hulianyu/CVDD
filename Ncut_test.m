@@ -20,12 +20,13 @@ filename = char('pathbased','spiral','aggregation','atom','lsun','zelnik1','zeln
 %% Initialization
 % add Jianbo Shi's Normalized Cut
 addpath([cd '/Ncut']);
+addpath([cd '/Datasets_all30']);
 % %% original setting range in our paper, M = 20*2000 = 40000.
 % omax = 20;
 % smax = 2000;
 % a small setting range you can try
-omax = 2;
-smax = 200;
+omax = 4;
+smax = 100;
 %% global Initialization
 M = omax*smax;
 Para = zeros(M,2);
@@ -42,9 +43,9 @@ for f = 1:2% select fth datasets
     %% local Initialization for each dataset
 %     I = set(f);
     I = f;
-    X = load(['Datasets_all30\', strtrim(filename(I,:)), '.txt']); %load a dataset
+    X = load([strtrim(filename(I,:)), '.txt']); %load a dataset
     N = length(X(:,1)); %Number of objects
-    GT = load(['Datasets_all30\', strtrim(filename(I,:)), '_label.txt']);%Ground truth
+    GT = load([strtrim(filename(I,:)), '_label.txt']);%Ground truth
     NC = length(unique(GT)); %Number of clusters
     d = pdist2(X,X,'minkowski',2); %Euclidean distance of X
     DD = Density_involved_distance(d, 7);%Density-involved distance of X
