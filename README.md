@@ -5,6 +5,7 @@ https://ieeexplore.ieee.org/document/8672850
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-internal-validity-index-based-on-density/clustering-algorithms-evaluation-on-iris)](https://paperswithcode.com/sota/clustering-algorithms-evaluation-on-iris?p=an-internal-validity-index-based-on-density)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-internal-validity-index-based-on-density/clustering-algorithms-evaluation-on)](https://paperswithcode.com/sota/clustering-algorithms-evaluation-on?p=an-internal-validity-index-based-on-density)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-internal-validity-index-based-on-density/clustering-algorithms-evaluation-on-seeds)](https://paperswithcode.com/sota/clustering-algorithms-evaluation-on-seeds?p=an-internal-validity-index-based-on-density)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-internal-validity-index-based-on-density/clustering-algorithms-evaluation-on-97)](https://paperswithcode.com/sota/clustering-algorithms-evaluation-on-97?p=an-internal-validity-index-based-on-density)
 
 ## Requirement
 
