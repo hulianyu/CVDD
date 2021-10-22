@@ -9,7 +9,8 @@ https://ieeexplore.ieee.org/document/8672850
 
 ## Requirement
 
-The source code is written by Matlab r2016a. Versions lower than Matlab r2012a have not been tested.[![View CVDD on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/100948-cvdd)
+The source code is written by Matlab r2016a. Versions lower than Matlab r2012a have not been tested. 
+[![View CVDD on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://ww2.mathworks.cn/matlabcentral/fileexchange/100948-cvdd)
 
 ## Simplest Demo
 
