@@ -34,3 +34,14 @@ File `Datasets_all30` includes 10 non-spherical clusters, 10 spherical clusters 
 ## Issues, Questions, etc
 
 Please report issues here on the github page or contact "hly4ml@gmail.com"
+
+## Citation
+
+@ARTICLE{Hu2019,
+  author={Hu, Lianyu and Zhong, Caiming},
+  journal={IEEE Access}, 
+  title={An Internal Validity Index Based on Density-Involved Distance}, 
+  year={2019},
+  volume={7},
+  pages={40038-40051},
+  doi={10.1109/ACCESS.2019.2906949}}
