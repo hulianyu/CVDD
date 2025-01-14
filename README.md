@@ -37,11 +37,14 @@ Please report issues here on the github page or contact "hly4ml@gmail.com"
 
 ## Citation
 
-@ARTICLE{Hu2019,
-  author={Hu, Lianyu and Zhong, Caiming},
-  journal={IEEE Access}, 
-  title={An Internal Validity Index Based on Density-Involved Distance}, 
-  year={2019},
-  volume={7},
-  pages={40038-40051},
-  doi={10.1109/ACCESS.2019.2906949}}
+If you find my code useful please consider citing:
+
+    @article{Hu2019,
+      title={An Internal Validity Index Based on Density-Involved Distance},
+      author={Hu, Lianyu and Zhong, Caiming},
+      journal={IEEE Access},
+      year={2019},
+      volume={7},
+      ages={40038-40051},
+      doi={10.1109/ACCESS.2019.2906949}
+    }
