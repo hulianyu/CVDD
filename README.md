@@ -45,6 +45,6 @@ If you find my code useful please consider citing:
       journal={IEEE Access},
       year={2019},
       volume={7},
-      ages={40038-40051},
+      pages={40038-40051},
       doi={10.1109/ACCESS.2019.2906949}
     }
